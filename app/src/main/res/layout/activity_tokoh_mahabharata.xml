@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wp_overlay"
+    tools:context=".TokohMahabharata">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@drawable/wp_topbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_vertical"
+                android:backgroundTint="@color/back_button_color"
+                android:background="@drawable/ic_back"
+                android:onClick="backwg"/>
+
+            <TextView
+                style="@style/TextAppearance.AppCompat.Title"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:paddingLeft="15dp"
+                android:paddingTop="10dp"
+                android:textSize="17dp"
+                android:text="Tokoh Mahabharata"
+                android:fontFamily="@font/font_jawa_palsu"/>
+
+        </LinearLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="60dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffd700"
+            android:gravity="center_horizontal"
+            android:layout_margin="7dp"
+            android:textSize="18dp"
+            android:text="Mahabharata adalah sebuah karya sastra kuno yang berasal dari India yang di tulis oleh Begawan Byasa atau Vyasa. Mahabharata menceritakankisah konflik para Pandawa lima dengan saudara sepupu mereka sang seratus Korawa, mengenai sengketa hak pemerintahan tanah negara Astina."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffd700"
+            android:gravity="center_horizontal"
+            android:layout_margin="5dp"
+            android:textSize="18dp"
+            android:text="Berikut ini nama tokoh Mahabharata tersebut:"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp">
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="15dp"
+                android:textColor="@color/text_button_color"
+                android:text="AbiManyu"
+                android:id="@+id/bt_abimanyu"
+                android:textSize="10dp"
+                android:background="@drawable/image_bt"/>
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="15dp"
+                android:textColor="@color/text_button_color"
+                android:text="Arjuna"
+                android:id="@+id/bt_arjuna"
+                android:textSize="10dp"
+                android:background="@drawable/image_bt"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp">
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="15dp"
+                android:textColor="@color/text_button_color"
+                android:text="Gatotkaca"
+                android:id="@+id/bt_gatot"
+                android:textSize="10dp"
+                android:background="@drawable/image_bt"/>
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="15dp"
+                android:textColor="@color/text_button_color"
+                android:text="Srikandi"
+                android:id="@+id/bt_srikandi"
+                android:textSize="10dp"
+                android:background="@drawable/image_bt"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

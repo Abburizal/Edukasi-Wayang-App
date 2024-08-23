@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wp_overlay"
+    tools:context=".TokohRamayana">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@drawable/wp_topbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_vertical"
+                android:backgroundTint="@color/back_button_color"
+                android:background="@drawable/ic_back"
+                android:onClick="backwg"/>
+
+            <TextView
+                style="@style/TextAppearance.AppCompat.Title"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:paddingLeft="15dp"
+                android:paddingTop="10dp"
+                android:textSize="17dp"
+                android:text="Tokoh Ramayana"
+                android:fontFamily="@font/font_jawa_palsu"/>
+
+        </LinearLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="60dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffd700"
+            android:gravity="center_horizontal"
+            android:layout_margin="7dp"
+            android:textSize="18dp"
+            android:text="Rāmâyaṇa yang berasal dari kata Rāma dan Ayaṇa yang berarti 'Perjalanan Rama' adalah sebuah cerita/kisah kepahlawanan dari India yang digubah oleh Walmiki (Valmiki) atau Balmiki dari cerita Dewi Sita.Ramayana menceritakan kisah Sang rama sebagai penerus tahta dikerajaan kosala."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffd700"
+            android:gravity="center_horizontal"
+            android:layout_margin="5dp"
+            android:textSize="18dp"
+            android:text="Berikut ini nama tokoh Ramayana tersebut:"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp">
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="15dp"
+                android:textColor="@color/text_button_color"
+                android:text="Anila"
+                android:id="@+id/bt_anila"
+                android:textSize="10dp"
+                android:background="@drawable/image_bt"/>
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="15dp"
+                android:textColor="@color/text_button_color"
+                android:text="Bharata"
+                android:id="@+id/bt_bharata"
+                android:textSize="10dp"
+                android:background="@drawable/image_bt"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp">
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="15dp"
+                android:textColor="@color/text_button_color"
+                android:text="Jatayu"
+                android:id="@+id/bt_jatayu"
+                android:textSize="10dp"
+                android:background="@drawable/image_bt"/>
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="15dp"
+                android:textColor="@color/text_button_color"
+                android:text="Rahwana"
+                android:id="@+id/bt_rahwana"
+                android:textSize="10dp"
+                android:background="@drawable/image_bt"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

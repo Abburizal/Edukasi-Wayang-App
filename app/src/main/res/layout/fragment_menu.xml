@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="590dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/wp_overlay"
+    style="@style/ThemeOverlay.AppCompat.Dark">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pengertian Wayang"
+            android:fontFamily="@font/font_jawa_palsu"
+            android:textColor="#ffd700"
+            android:textSize="28dp"
+            android:paddingTop="10dp"
+            android:gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffd700"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textSize="18dp"
+            android:text="Wayang pertama kali dikenalkan pada zaman pemerintahan Prabu Airlangga di abad ke-10. Menurut para ahli, wayang berasal dari pulau Jawa, tepatnya di Jawa timur. Wayang adalah sebuah pertunjukan bayang-bayang dari boneka yang dimainkan oleh dalang yang kemudian diproyeksikan pada tabir. Pertunjukan wayang biasanya menceritakan sebuah kisah yang mengandung dakwah, pendidikan dan pemahaman filsafat yang dibungkus dengan hiburan."
+            android:layout_marginTop="13dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffd700"
+            android:gravity="center_horizontal"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="13dp"
+            android:textSize="18dp"
+            android:text="Adapun pengertian wayang berdasarkan jenisnya, yaitu:"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <Button
+                android:layout_width="110dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="7dp"
+                android:textColor="@color/text_button_color"
+                android:text="Wayang Kulit"
+                android:textSize="10dp"
+                android:onClick="btwayk"
+                android:background="@drawable/image_bt"/>
+
+            <Button
+                android:layout_width="110dp"
+                android:layout_height="50dp"
+                android:textColor="@color/text_button_color"
+                android:text="Wayang Golek"
+                android:textSize="10dp"
+                android:onClick="btwgol"
+                android:background="@drawable/image_bt"/>
+
+            <Button
+                android:layout_width="110dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="7dp"
+                android:textColor="@color/text_button_color"
+                android:text="Wayang Orang"
+                android:textSize="10dp"
+                android:onClick="btwora"
+                android:background="@drawable/image_bt"/>
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="7dp">
+
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="4dp"
+            android:textColor="@color/text_button_color"
+            android:text="Wayang Beber"
+            android:textSize="10dp"
+            android:onClick="btwbeb"
+            android:background="@drawable/image_bt"/>
+
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="4dp"
+            android:textColor="@color/text_button_color"
+            android:text="Wayang Klitik"
+            android:textSize="10dp"
+            android:onClick="btwkli"
+            android:background="@drawable/image_bt"/>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="590dp"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/wp_2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:paddingTop="10dp">
+
+        <Button
+            android:layout_width="290dp"
+            android:layout_height="170dp"
+            android:layout_margin="3dp"
+            android:onClick="btvid1"
+            android:id="@+id/btvid1"
+            android:background="@drawable/btvid_wk"/>
+
+        <Button
+            android:layout_width="290dp"
+            android:layout_height="170dp"
+            android:layout_margin="3dp"
+            android:onClick="btvid2"
+            android:id="@+id/btvid2"
+            android:background="@drawable/btvid_wg"/>
+
+        <Button
+            android:layout_width="290dp"
+            android:layout_height="170dp"
+            android:layout_margin="3dp"
+            android:onClick="btvid3"
+            android:id="@+id/btvid3"
+            android:background="@drawable/btvid_wo"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

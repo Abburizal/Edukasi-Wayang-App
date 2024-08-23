@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wp_overlay"
+    tools:context=".Pop_wo">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@drawable/wp_topbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_vertical"
+                android:backgroundTint="@color/back_button_color"
+                android:background="@drawable/ic_back"
+                android:onClick="backwg"/>
+
+            <TextView
+                style="@style/TextAppearance.AppCompat.Title"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:paddingLeft="15dp"
+                android:paddingTop="10dp"
+                android:textSize="23dp"
+                android:text="Wayang Orang"
+                android:fontFamily="@font/font_jawa_palsu"/>
+
+        </LinearLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="60dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffd700"
+            android:gravity="left"
+            android:layout_margin="7dp"
+            android:textSize="18dp"
+            android:text="Wayang orang merupakan seni tradisi yang memadukan seni tari, seni drama, seni musik dan seni rupa. Wayang orang dipertunjukan dengan menggunakan kostum sesuai tokoh yang diperankan dan dimainkan dengan cara drama tari berdialog prosa."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffd700"
+            android:gravity="left"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="7dp"
+            android:textSize="18dp"
+            android:text="Berikut ini adalah contoh gambar wayang orang."/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="20dp">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="150dp"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/img_wong1"/>
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/img_wong2"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="150dp"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/img_wong3"/>
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/img_wong4"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="590dp"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/wp_2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="125dp"
+            android:onClick="btdewadewi"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginBottom="3dp"
+            android:text="  Dewa-Dewi"
+            android:textAllCaps="false"
+            android:textSize="25dp"
+            android:textAlignment="textStart"
+            android:background="@drawable/bt_tok_dew"
+            android:fontFamily="@font/font_jawa_palsu"
+            android:textColor="@color/text_button_color"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="125dp"
+            android:onClick="btramayana"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:text="  Ramayana"
+            android:textAllCaps="false"
+            android:textSize="25dp"
+            android:textAlignment="textStart"
+            android:background="@drawable/bt_tok_ram"
+            android:fontFamily="@font/font_jawa_palsu"
+            android:textColor="@color/text_button_color"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="125dp"
+            android:onClick="btmahabharata"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:text="  Mahabharata"
+            android:textAllCaps="false"
+            android:textSize="25dp"
+            android:textAlignment="textStart"
+            android:background="@drawable/bt_tok_mah"
+            android:fontFamily="@font/font_jawa_palsu"
+            android:textColor="@color/text_button_color"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="125dp"
+            android:onClick="btpunakawan"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:text="  Punakawan"
+            android:textAllCaps="false"
+            android:textSize="25dp"
+            android:textAlignment="textStart"
+            android:background="@drawable/bt_tok_pun"
+            android:fontFamily="@font/font_jawa_palsu"
+            android:textColor="@color/text_button_color"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

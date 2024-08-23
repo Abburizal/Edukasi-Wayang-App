@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wp_1"
+    tools:context=".Menu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Aplikasi Sistem Informasi"
+            android:gravity="center"
+            android:layout_marginTop="50dp"
+            android:textColor="#ffd700"
+            android:fontFamily="@font/font_jawa_palsu"
+            android:textSize="23dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Wayang"
+            android:gravity="center"
+            android:textSize="70dp"
+            android:fontFamily="@font/font_jawa_palsu"
+            android:textColor="#ffd700"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="diPulau  Jawa"
+            android:gravity="center"
+            android:textColor="#ffd700"
+            android:fontFamily="@font/font_jawa_palsu"
+            android:textSize="25dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="110dp"/>
+
+        <Button
+            android:layout_width="175dp"
+            android:layout_height="50dp"
+            android:id="@+id/mulai"
+            android:background="@drawable/image_bt"
+            android:textColor="@color/text_button_color"
+            android:layout_gravity="center"
+            android:onClick="pindah"
+            android:text="Masuk"/>
+
+        <Button
+            android:layout_width="175dp"
+            android:layout_height="50dp"
+            android:id="@+id/credit"
+            android:background="@drawable/image_bt"
+            android:textColor="@color/text_button_color"
+            android:layout_gravity="center"
+            android:onClick="popupcredit"
+            android:text="Info Aplikasi"/>
+
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

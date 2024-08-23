@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wp_overlay"
+    tools:context=".Pop_wk">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@drawable/wp_topbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_vertical"
+                android:backgroundTint="@color/back_button_color"
+                android:background="@drawable/ic_back"
+                android:onClick="backwg"/>
+
+            <TextView
+                style="@style/TextAppearance.AppCompat.Title"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:paddingLeft="15dp"
+                android:paddingTop="10dp"
+                android:textSize="23dp"
+                android:text="Wayang Kulit"
+                android:fontFamily="@font/font_jawa_palsu"/>
+
+        </LinearLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="60dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffd700"
+            android:gravity="left"
+            android:layout_margin="7dp"
+            android:textSize="18dp"
+            android:text="Wayang kulit adalah boneka yang terbuat dari lembaran kulit kerbau yang telah dikeringkan. Sedangkan bagian siku terbuat dari tanduk kerbau yang disambung menggunakan sekrup agar gerakan wayang terlihat lebih dinamis."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffd700"
+            android:gravity="left"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="7dp"
+            android:textSize="18dp"
+            android:text="Berikut ini adalah contoh gambar wayang kulit."/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="20dp">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="160dp"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/img_semar"/>
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="160dp"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/img_petruk"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="160dp"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/img_gareng"/>
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="160dp"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/img_bagong"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/transparent"
+    tools:context=".BsRamJat">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@drawable/wp_topbar"
+        android:id="@+id/appBarwg1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/TextAppearance.AppCompat.Title"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="Jatayu"
+                android:textSize="23dp"
+                android:fontFamily="@font/font_jawa_palsu"
+                android:textColor="@android:color/black"
+                android:paddingLeft="16dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_close"
+                android:padding="16dp"
+                android:tint="@android:color/darker_gray"
+                android:id="@+id/closeSheetwg1"/>
+
+        </LinearLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#9d5107"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark"
+            android:id="@+id/wg1_linear"
+            android:padding="14dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#ffd700"
+                android:layout_marginTop="10dp"
+                android:gravity="center_horizontal"
+                android:textSize="20dp"
+                android:text="Jatayu merupakan burung yang besar seperti raksasa yang dapat berbicara dan bijaksana. Jatayu adalah keponakan dari garuda. Jatayu memiliki watak pemberani, rela berkorban dan tidak mudah menyerah"/>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>
